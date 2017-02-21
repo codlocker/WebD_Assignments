@@ -14,8 +14,8 @@ header h2
 section .box-content {
   background-color: darkgrey;
   padding: 2%;
-  margin: 10px;
-  border: 2px solid black;
+  margin: 20px;
+  border: 1px solid black;
   box-sizing: border-box;
   position: relative;
 }
@@ -25,14 +25,15 @@ section .box-content {
   font-size: 1em;
 }
 .box-content .header h3{
-  border-left: 2px solid black;
-  border-bottom: 2px solid black;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
   font-size: 1.25em;/*Font-Size is 25% of dummy text*/
   text-align: center;
   position: absolute;
   right: 0px;
   top: 0px;
   padding: 4px 10px;
+  min-width: 100px;
   width:40%;
 }
 .box-content .chicken-header h3 { /*Attempt at making the colors match up the ones in images :D*/
@@ -47,6 +48,6 @@ section .box-content {
 }
 @media (max-width: 767px){
   section .box-content {
-    margin: 40px !important; /*This is done to achieve the padding as mentioned in the mobile view of the diagram*/
+    margin: 20px !important; /*This is done to achieve the padding as mentioned in the mobile view of the diagram*/
   }
 }
