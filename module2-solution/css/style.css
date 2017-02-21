@@ -23,6 +23,8 @@ section .box-content {
   margin-top: 30px;
   padding: 10px;
   font-size: 1em;
+  height: 200px;
+  overflow: auto;
 }
 .box-content .header h3{
   border-left: 1px solid black;
