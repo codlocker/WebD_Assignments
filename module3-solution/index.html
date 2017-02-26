@@ -12,14 +12,108 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <title>Boostrap Starter Page</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Module-3</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/styles.css">
   </head>
 <body>
 
-  <h1>Hello Coursera!</h1>
-
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="nav-brand" href="#">Food, LLC</a>
+      </div>
+      <ul class="nav navbar-nav pull-right">
+        <li class="hidden-xs"><a href="#chicken">Chicken</a></li>
+        <li class="hidden-xs"><a href="#beef">Beef</a></li>
+        <li class="hidden-xs"><a href="#sushi">Sushi</a></li>
+        <li><button type="button" class="navbar-toggle collapsed pos-icon" data-toggle="collapse"
+          data-target="#collapsable-nav" aria-expanded="true">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button></li>
+      </ul>
+      <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+            <li class="text-center">
+              <a href="#chicken"><p class="item">Chicken</p></a>
+              <hr class="visible-xs">
+            </li>
+            <li class="text-center beef-item">
+              <a href="#beef"><p class="item">Beef</p></a>
+              <hr class="visible-xs">
+            </li>
+            <li class="text-center sushi-item">
+              <a href="#sushi"><p class="item">Sushi</p></a>
+            </li>
+          </ul>
+        </div>
+  </div>
+  </nav>
+  <section>
+      <div class="col-lg-12 col-md-12"  id="chicken">
+        <div class="box-content content-chicken" >
+          <div class="header chicken-header">
+            <p>Chicken</p>
+          </div>
+          <div class="body chicken-body">
+            <!-- Dummy Content-->
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of type
+              and scrambled it to make a type specimen book. It has survived not
+              only five centuries, but also the leap into electronic typesetting,
+              remaining essentially unchanged. It was popularised in the 1960s with
+              the release of Letraset sheets containing Lorem Ipsum passages, and
+              more recently with desktop publishing software like Aldus PageMaker
+              including versions of Lorem Ipsum.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-12 col-md-12"  id="beef">
+        <div class="box-content content-beef">
+          <div class="header beef-header">
+            <p>Beef</p>
+          </div>
+          <div class="body chicken-body">
+            <!-- Dummy Content-->
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of type
+              and scrambled it to make a type specimen book. It has survived not
+              only five centuries, but also the leap into electronic typesetting,
+              remaining essentially unchanged. It was popularised in the 1960s with
+              the release of Letraset sheets containing Lorem Ipsum passages, and
+              more recently with desktop publishing software like Aldus PageMaker
+              including versions of Lorem Ipsum.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-12 col-md-12" id="sushi">
+        <div class="box-content content-sushi">
+          <div class="header sushi-header" >
+            <p>Sushi</p>
+          </div>
+          <div class="body sushi-body">
+            <!-- Dummy Content-->
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of type
+              and scrambled it to make a type specimen book. It has survived not
+              only five centuries, but also the leap into electronic typesetting,
+              remaining essentially unchanged. It was popularised in the 1960s with
+              the release of Letraset sheets containing Lorem Ipsum passages, and
+              more recently with desktop publishing software like Aldus PageMaker
+              including versions of Lorem Ipsum.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
