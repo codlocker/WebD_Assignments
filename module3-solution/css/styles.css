@@ -15,6 +15,9 @@
 .nav-bar li {
   position: relative;
 }
+.content-beef, .content-sushi, .content-chicken {
+  position: relative;
+}
 .nav-brand {
   text-decoration: none;
   color: white;
@@ -26,11 +29,20 @@
   color: white;
   font-size: 2em;
 }
-@media (max-width : 762px) {
-#collapsable-nav {
-  margin-top: 30px;
-  background-color: orange;
+.back-top > a {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+  padding: 10px;
+  border: 1px solid white;
+  background-color: transparent;
+  transition: 0.3s;
 }
+.back-top > a > span {
+  color: red;
+}
+.back-top > a:hover {
+  background-color: white;
 }
 #collapsable-nav ul > li > a  {
   font-size: 1.5em;
@@ -93,4 +105,16 @@ section .box-content {
   section .box-content {
     margin: 20px !important; /*This is done to achieve the padding as mentioned in the mobile view of the diagram*/
   }
+}
+@media (max-width : 762px) {
+#collapsable-nav {
+  margin-top: 30px;
+  background-color: orange;
+}
+}
+@media (max-width : 762px) {
+.back-top  >a{
+  padding: 2px;
+  right: 30px;
+}
 }
