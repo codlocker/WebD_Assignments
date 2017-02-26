@@ -48,13 +48,6 @@
   font-size: 1.5em;
   margin: auto;
 }
-header h2
-{
-  text-align: center;
-  padding-bottom: 3%;
-  margin: 40px;
-  font-size: 1.75em; /*Font-Size is 75% of dummy text*/
-}
 section .box-content {
   background-color: #0074D9;
   color: white;
