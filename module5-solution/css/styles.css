@@ -3,7 +3,10 @@ body {
   color: #fff;
   background-color: #61122f;
   font-family: 'Oxygen', sans-serif;
-}
+  background: #00b09b;  
+  background: -webkit-linear-gradient(to right, #96c93d, #00b09b); 
+  background: linear-gradient(to right, #96c93d, #00b09b); 
+ }
 
 /** HEADER **/
 #header-nav {
