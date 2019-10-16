@@ -4,6 +4,11 @@
   margin: 0;
   font-family: Helvetica;
 }
+body{
+  background: #00b09b;  
+  background: -webkit-linear-gradient(to right, #96c93d, #00b09b); 
+  background: linear-gradient(to right, #96c93d, #00b09b); 
+ }
 .pos-icon {
   position: absolute;
   right: 2px;
